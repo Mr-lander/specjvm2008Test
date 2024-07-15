@@ -1,0 +1,118 @@
+================================
+SPECjvm2008 Peak
+================================
+n/a n/a
+Private Build OpenJDK 64-Bit Server VM
+Tested by: n/a Test date: Sun Jul 14 12:23:20 CST 2024
+Run is valid, but not compliant
+
+================================
+compiler                      296.29                                  
+crypto                        223.85                                  
+scimark.large                 37.48                                   
+scimark.small                 129.99                                  
+Noncompliant composite result: 134.08 ops/m
+================================
+
+
+Submitter                     n/a                                     
+Submitter URL                 n/a                                     
+SPEC license                  n/a                                     
+Tester                        root                                    
+Location                      n/a                                     
+Test date:                    Sun Jul 14 12:23:20 CST 2024            
+OS name                       Linux                                   
+OS available                  n/a                                     
+OS address bits               n/a                                     
+OS tuning                                                             
+Filesystem                    n/a                                     
+Other s/w name                                                        
+Other s/w tuning                                                      
+Other s/w available                                                   
+Vendor                        Private Build                           
+Vendor URL                    http://java.oracle.com/                 
+JVM name                      OpenJDK 64-Bit Server VM                
+JVM version                   25.412-b08 mixed mode                   
+JVM available                 n/a                                     
+Java Specification            1.8                                     
+JVM address bits              64                                      
+JVM initial heap memory       n/a                                     
+JVM maximum heap memory       n/a                                     
+JVM command line              n/a                                     
+JVM command line startup                                              
+JVM launcher startup          default                                 
+Additional JVM tuning                                                 
+JVM class path                SPECjvm2008.jar                         
+JVM boot class path           /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+HW vendor                     n/a                                     
+HW vendor's URL               n/a                                     
+HW model                      n/a                                     
+HW available                  n/a                                     
+CPU vendor                    n/a                                     
+CPU vendor's URL              n/a                                     
+CPU name                      n/a                                     
+CPU frequency                 n/a                                     
+# of logical cpus             n/a                                     
+# of chips                    n/a                                     
+# of cores                    n/a                                     
+Cores per chip                n/a                                     
+Threads per core              n/a                                     
+Threading enabled             n/a                                     
+HW address bits               n/a                                     
+Primary cache                 n/a                                     
+Secondary cache               n/a                                     
+Other cache                   n/a                                     
+Memory size                   n/a                                     
+Memory details                n/a                                     
+Other HW details              n/a                                     
+
+Property specjvm.maxiter must be 1 for publication.
+Property specjvm.miniter must be 1 for publication.
+Not a compliant sequence of benchmarks for publication.
+Property specjvm.run.checksum.validation must be true for publication.
+
+Details of Runs
+---------------
+PASSED
+
+Benchmark                     Iteration      Expected(ms)   Actual(ms)     Operations     ops/m          
+---------------------------------------------------------------------------------------------------
+
+compiler.compiler             warmup         120000         120000         512.65         256.32         
+compiler.compiler             iteration 1    240000         240000         1170.01        292.50         
+compiler.compiler             iteration 2    240000         240000         1185.14        296.29         
+
+crypto.aes                    warmup         120000         120000         97.51          48.76          
+crypto.aes                    iteration 1    240000         240000         203.19         50.80          
+crypto.aes                    iteration 2    240000         240000         209.25         52.31          
+
+crypto.rsa                    warmup         120000         120000         1642.41        821.20         
+crypto.rsa                    iteration 1    240000         240000         3191.31        797.83         
+crypto.rsa                    iteration 2    240000         240000         3049.94        762.48         
+
+crypto.signverify             warmup         120000         120000         524.44         262.22         
+crypto.signverify             iteration 1    240000         240000         1058.63        264.66         
+crypto.signverify             iteration 2    240000         240000         1075.00        268.75         
+
+scimark.fft.large             warmup         120000         120000         137.02         68.51          
+scimark.fft.large             iteration 1    240000         240000         276.00         69.00          
+scimark.fft.large             iteration 2    240000         240000         265.28         66.32          
+
+scimark.lu.large              warmup         120000         120000         43.84          21.92          
+scimark.lu.large              iteration 1    240000         240000         87.98          22.00          
+scimark.lu.large              iteration 2    240000         240000         90.96          22.74          
+
+scimark.sor.large             warmup         120000         120000         36.82          18.41          
+scimark.sor.large             iteration 1    240000         240000         73.25          18.31          
+scimark.sor.large             iteration 2    240000         240000         71.32          17.83          
+
+scimark.sparse.large          warmup         120000         120000         40.71          20.35          
+scimark.sparse.large          iteration 1    240000         240000         79.25          19.81          
+scimark.sparse.large          iteration 2    240000         240000         63.69          15.92          
+
+scimark.monte_carlo           warmup         120000         120000         252.03         126.02         
+scimark.monte_carlo           iteration 1    240000         240000         503.23         125.81         
+scimark.monte_carlo           iteration 2    240000         240000         519.97         129.99         
+
+SPECjvm2008 Version: [SPECjvm2008 1.01 (20090519)]
+Copyright (C) 2008-2024 SPEC. All rights reserved

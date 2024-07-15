@@ -1,0 +1,10 @@
+Report:      SPECjvm2008 Peak summary
+Result:      Noncompliant composite result: 134.08 ops/m
+HW Model:    n/a, n/a
+HW CPU:      n/a, n/a
+OS:          Linux
+JVM:         Private Build, OpenJDK 64-Bit Server VM, 25.412-b08 mixed mode
+JVM tuning:  n/a
+JVM startup:  
+Tester:      root, n/a
+Run date:    Sun Jul 14 12:23:20 CST 2024
